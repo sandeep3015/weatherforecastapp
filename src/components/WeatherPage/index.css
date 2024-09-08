@@ -1,0 +1,170 @@
+.weather-card {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weekly-data {
+    display: flex;
+    height: 200px;
+    width: 600px;
+    border: 2px solid whitesmoke;
+    margin-top: 20px;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-data {
+    height: 200px;
+    width: 600px;
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.data {
+    margin: 10px;
+}
+
+.city-name {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.weather-description {
+    display: flex;
+    flex-direction: column;
+}
+
+.temperature {
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+}
+
+.description {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.temp-condition {
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.weather-temp {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.temp-values {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.back-button {
+    background-color: transparent;
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid whitesmoke;
+    border-radius: 7px;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .weather-card {
+        padding: 10px;
+    }
+
+    .weather-data, .weekly-data {
+        padding: 15px;
+        margin: 5px;
+    }
+
+    .temperature {
+        font-size: 36px;
+    }
+
+    .temp-condition img {
+        height: 40px;
+    }
+
+    .data h1 {
+        font-size: 18px;
+    }
+
+    .data p {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .weather-card {
+        padding: 15px;
+    }
+
+    .weather-data, .weekly-data {
+        padding: 18px;
+        margin: 10px;
+    }
+
+    .temperature {
+        font-size: 42px;
+    }
+
+    .temp-condition img {
+        height: 45px;
+    }
+
+    .data h1 {
+        font-size: 20px;
+    }
+
+    .data p {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .weather-card {
+        padding: 20px;
+    }
+
+    .weather-data, .weekly-data {
+        padding: 20px;
+        margin: 15px;
+    }
+
+    .temperature {
+        font-size: 48px;
+    }
+
+    .temp-condition img {
+        height: 50px;
+    }
+
+    .data h1 {
+        font-size: 22px;
+    }
+
+    .data p {
+        font-size: 18px;
+    }
+}

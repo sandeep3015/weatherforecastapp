@@ -1,0 +1,100 @@
+/* Apply background image to the entire page */
+body {
+    background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/07/Weather-Desktop-Wallpaper.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.main-heading {
+    margin-bottom: 20px;
+    font-size: 30px;
+    align-self: center;
+    color: white;
+}
+
+.main-container {
+    padding-top: 20px;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+
+.heading-container {
+    display: flex;
+    align-self: flex-start;
+    justify-self: center;
+    height: 70px;
+    width: 500px;
+    align-items: center;
+}
+
+.weather-icon {
+    height: 70px;
+    width: 50px;
+}
+
+.search-input {
+    height: 40px;
+    width: 50%;
+    outline: none;
+    border: 2px solid whitesmoke;
+    border-radius: 7px;
+    background-color: transparent;
+    padding-left: 5px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.link-item {
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .main-container {
+        padding: 10px;
+    }
+
+    .search-input {
+        font-size: 14px;
+    }
+
+    table {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .main-container {
+        padding: 15px;
+    }
+
+    .search-input {
+        font-size: 16px;
+    }
+
+    table {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .main-container {
+        padding: 20px;
+    }
+
+    .search-input {
+        font-size: 18px;
+    }
+
+    table {
+        font-size: 16px;
+    }
+}

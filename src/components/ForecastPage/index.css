@@ -1,0 +1,42 @@
+.forecast-data {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    height: 200px;
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.date {
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+.forecast-data-display {
+    display: flex;
+}
+
+.data-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 10px;
+    border: 2px solid whitesmoke;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+.forecast-temp {
+    color: whitesmoke;
+    font-size: 17px;
+}
+
+.forecast-heading {
+    color: whitesmoke;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
